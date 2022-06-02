@@ -5,21 +5,23 @@ body {
 }
 
 /*Header*/
-.menu-container {
+.navbarColor {
+    background-color: antiquewhite !important;
+
+}
+
+/*.menu-container {
     display: flex;
     justify-content: center;
     position: sticky;
     top: 0;
     
 }
-
-.menu {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+*/
+.menu-container {
     background-color: antiquewhite;
-    
-
+    position: sticky;
+    top: 0;
 }
 
 div a {
@@ -48,6 +50,11 @@ div a {
     height: 200px;
 }
 
+.container-header {
+    display: flex;
+    justify-content: space-around;
+
+}
 
 /*main*/
 main { 
@@ -57,7 +64,7 @@ main {
     text-align: center;
     background-color: rgba(188, 143, 143, 0.384);
 }
-.grid-container {
+/*.grid-container {
     display: grid;
     grid-template-rows: 300px 150px;
     grid-template-columns: repeat(3, 1fr);    
@@ -71,7 +78,7 @@ main {
     height: 200px;
     margin-left: 150px;
     margin-top: 90px;
-}
+}*/
 .video-index {
     display: flex;
     justify-content: center;
@@ -133,8 +140,18 @@ section div img {
 .galeria-item {
     display: flex;
     justify-content: center;
+
+}
+.imgCarrusel {
+    width: 540px;
+    height: 540px;
+    border-radius: 1rem;
 }
 
+.btnCarrusel {
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
 /*Contacto*/
 .main-contac {
     width: 100%;

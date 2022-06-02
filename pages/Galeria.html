@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css
+    ">
     <!-- CSS -->
     <link rel="stylesheet" href="../style/style.css">
     <title>Galeria</title>
@@ -13,29 +16,30 @@
 <body>
     <!-- Inicio del Header -->
     <header>
-
         <nav class="menu-container">
-            <div class="menu">
-                <div>
-                    <a href="../Index.html">Inicio</a>
+            <div class="menu row">
+                <div class="col-2"></div>
+                <div class="col-2 ">
+                    <a href="../Index.html"  >Inicio</a>
                 </div>
-                <div>
-                    <a href="Nosotros.html">Nosotros</a>
+                <div class="col-2 ">
+                    <a href="Nosotros.html" >Nosotros</a>
                 </div>
-                <div>
-                    <a href="Productos.html">Productos</a>
+                <div class="col-2 ">
+                    <a href="Productos.html" >Productos</a>
                 </div>
-                <div>
-                    <a href="Galeria.html">Galeria</a>
+                <div class="col-2 ">
+                    <a href="Galeria.html" >Galeria</a>
                 </div>
-                <div>
-                    <a href="Contacto.html">Contacto</a>
+                <div class="col-2 ">
+                    <a href="Contacto.html" >Contacto</a>
                 </div>
+                <div class="col-2"></div>
             </div>
         </nav>
 
         <div class="imagen-logo">
-            <img src="Imagines/logo.jpg" alt="logo dulce sorpresa" id="img-logo">
+            <img src="../Imagines/logo.jpg" alt="logo dulce sorpresa" id="img-logo">
         </div>
 
     </header>
@@ -44,15 +48,40 @@
     <!-- Inicio del main -->
     <h1 class="bajologo">Nuestros trabajos</h1>
     <section>
-        <div class="galeria-container">
-            <div class="galeria-item"><img src="../Imagines/carrusel-1.jpeg" alt=""></div>
-            <div class="galeria-item"><img src="../Imagines/carrusel-2.jpeg" alt=""></div>
-            <div class="galeria-item"><img src="../Imagines/carrusel-3.jpeg" alt=""></div>
-            <div class="galeria-item"><img src="../Imagines/carrusel-3.jpeg" alt=""></div>
-            <div class="galeria-item"><img src="../Imagines/carrusel-5.jpeg" alt=""></div>
-            <div class="galeria-item"><img src="../Imagines/carrusel-6.jpg" alt=""></div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item d-flex justify-content-center active">
+                    <img src="../Imagines/carrusel-1.jpeg" class="d-block imgCarrusel" alt="...">
+                </div>
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="../Imagines/carrusel-2.jpeg" class="d-block imgCarrusel" alt="...">
+                </div>
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="../Imagines/carrusel-3.jpeg" class="d-block imgCarrusel " alt="...">
+                </div>
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="../Imagines/carrusel-4.jpeg" class="d-block imgCarrusel " alt="...">
+                </div>                
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="../Imagines/carrusel-5.jpeg" class="d-block imgCarrusel " alt="...">
+                </div>
+                <div class="carousel-item d-flex justify-content-center">
+                    <img src="../Imagines/carrusel-6.jpg" class="d-block imgCarrusel " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev btnCarrusel" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btnCarrusel" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
+
     <!-- Fin del main -->
 
     <!-- Inicio del footer -->
@@ -75,6 +104,11 @@
         </section>
     </footer>
     <!-- fin del footer -->
+
+
+<!-- Boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
+"></script>
 </body>
 
 </html>
