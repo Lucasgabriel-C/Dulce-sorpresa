@@ -1,0 +1,23 @@
+@import "../base/colores";
+
+main{
+    .bajologo{
+        text-align: center;
+        background-color: $color-terciario;
+    }
+    .main-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .box-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-index{
+        display: flex;
+        justify-content: center;
+        margin: 3rem;
+    }
+
+}

@@ -110,16 +110,7 @@ section div img {
 
 
 /*Galeria*/
-.galeria-container {
-    display: grid;
-    grid-template-rows: 350px 350px;
-    grid-template-columns: repeat(3, 1fr);
-}
-.galeria-item {
-    display: flex;
-    justify-content: center;
 
-}
 .imgCarrusel {
     width: 25%;
     height: 25% ;
