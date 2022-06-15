@@ -1,0 +1,4 @@
+@mixin display($valor, $valor1) {
+    display: $valor;
+    justify-content: $valor1;
+}

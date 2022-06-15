@@ -1,22 +1,24 @@
 @import "../base/colores";
 
-main{
-    .bajologo{
+main {
+    .bajologo {
         text-align: center;
         background-color: $color-terciario;
     }
-    .main-container{
-        display: flex;
-        justify-content: space-around;
+
+    .main-container {
+        @include display(flex, space-around)
     }
-    .box-card{
+
+    .box-card {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        text-align: center;
+
     }
-    .video-index{
-        display: flex;
-        justify-content: center;
+
+    .video-index {
+        @include display(flex, center)
         margin: 3rem;
     }
 

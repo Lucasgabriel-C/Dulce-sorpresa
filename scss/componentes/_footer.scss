@@ -1,24 +1,21 @@
 @import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
 
 footer{
     .menu-redes{
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: space-around;
+        @include display(flex, space-around)
         align-items: center;
         background-color: $color-secundario;
+        width: 100%;
+        height: 100px;
     }
     #img-foot{
         width: 40px;
         height: 40px;
     }
     .box{
-        height: 20px;
-        width: 40px;
-        border-radius: black 4px;
-        margin: 8px;
-        transition: all 1s;
+        @extend %trasformaciones
     }
     .box:hover{
         transform: scale(1.3);

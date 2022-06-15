@@ -1,3 +1,4 @@
+@import "../base/mixins";
 
 main{
     section div img{
@@ -18,8 +19,7 @@ main{
         padding-bottom: 3rem;
     }
     .produc-item{
-        display: flex;
-        justify-content: center;
+        @include display(flex, center)
         text-align: center;
         margin-top: 50px;
     }

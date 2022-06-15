@@ -1,4 +1,6 @@
 @import "../base/colores";
+@import "../base/extends";
+@import "../base/mixins";
 
 body{
     background-color: $color-principal;
@@ -10,18 +12,13 @@ header{
         text-decoration: none;
     }
     .box{
-        height: 20px;
-        width: 40px;
-        border-radius: black 4px;
-        margin: 8px;
-        transition: all 1s;
+        @extend %trasformaciones
     }
     .box:hover{
         transform: scale(2);
     }
     .imagen-logo{
-        display: flex;
-        justify-content: center;
+        @include display(flex, center)
     }
     #img-logo{
         width: 200px;
