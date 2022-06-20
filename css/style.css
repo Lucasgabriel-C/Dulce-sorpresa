@@ -1,19 +1,35 @@
-header .box, footer .box {
-  height: 20px;
-  width: 40px;
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Berkshire+Swash&display=swap");
+header a, footer .box {
   border-radius: black 4px;
-  margin: 8px;
   transition: all 1s; }
 
 body {
-  background-color: #ffc0a5; }
+  background-color: #f37546; }
+
+header .section-header {
+  background-color: #ff8a5a; }
+
+header .clas-div {
+  display: flex;
+  margin-left: 5rem; }
 
 header div a {
+  margin-left: 6rem;
   color: black;
   text-decoration: none; }
 
-header .box:hover {
-  transform: scale(2); }
+header a {
+  font-family: 'Berkshire Swash', cursive; }
+
+header a:hover {
+  transform: scale(1.3); }
+
+header nav div p {
+  font-family: 'Berkshire Swash', cursive;
+  font-weight: bold; }
 
 header .imagen-logo {
   display: flex;
@@ -23,18 +39,15 @@ header #img-logo {
   width: 200px;
   height: 200px; }
 
-header .box, footer .box {
-  height: 20px;
-  width: 40px;
+header a, footer .box {
   border-radius: black 4px;
-  margin: 8px;
   transition: all 1s; }
 
 footer .menu-redes {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ff956c;
+  background-color: #ff8a5a;
   width: 100%;
   height: 100px; }
 
@@ -47,7 +60,10 @@ footer .box:hover {
 
 main .bajologo {
   text-align: center;
-  background-color: #ffb79a; }
+  background-color: #ff7f50; }
+  main .bajologo h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold; }
 
 main .main-container {
   display: flex;
@@ -56,7 +72,16 @@ main .main-container {
 main .box-card {
   display: flex;
   flex-direction: column;
-  text-align: center; }
+  text-align: center;
+  margin: 2rem; }
+
+main #img-index {
+  width: 250px;
+  height: 250px;
+  margin-left: 3rem; }
+
+main section div h2, main p {
+  font-family: 'Architects Daughter', cursive; }
 
 main .video-index {
   display: flex;
@@ -88,7 +113,9 @@ main .produc-item {
 
 main section h1 {
   text-align: center;
-  background-color: #ffb79a; }
+  background-color: #ff7f50;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold; }
 
 main section {
   margin: 5rem; }
@@ -109,6 +136,10 @@ main section {
         height: 300px;
         width: 400px;
         padding-top: 6rem; }
+
+main .bajologo {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold; }
 
 main .imgCarrusel {
   width: 25%;
@@ -215,9 +246,6 @@ main .btnCarrusel {
     width: 20rem;
     height: 20rem; } }
 
-header .box, footer .box {
-  height: 20px;
-  width: 40px;
+header a, footer .box {
   border-radius: black 4px;
-  margin: 8px;
   transition: all 1s; }

@@ -1,9 +1,14 @@
 @import "../base/colores";
+@import "../base/fuentes";
 
 main {
     .bajologo {
         text-align: center;
         background-color: $color-terciario;
+        h1{
+            font-family: 'Architects Daughter', cursive;;
+            font-weight: bold;
+        }
     }
 
     .main-container {
@@ -14,9 +19,17 @@ main {
         display: flex;
         flex-direction: column;
         text-align: center;
+        margin: 2rem;
 
     }
-
+    #img-index{
+        width: 250px;
+        height: 250px;
+        margin-left: 3rem;
+    }
+    section div h2, p{
+        font-family: 'Architects Daughter', cursive;
+    }
     .video-index {
         @include display(flex, center)
         margin: 3rem;
