@@ -2,6 +2,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Berkshire+Swash&display=swap");
+@media screen and (max-width: 768px) {
+  /*index*/
+  .main-container {
+    display: block !important; }
+  .box-card {
+    display: block !important;
+    text-align: center !important; }
+    .box-card #img-index {
+      width: 10rem !important;
+      height: 10rem !important;
+      padding-right: 5rem !important; }
+  .video-index {
+    padding: 2rem; }
+  /*Nosotros*/
+  .div-nosotros {
+    display: block !important; }
+    .div-nosotros .img-nosotros {
+      display: flex !important;
+      justify-content: center !important;
+      margin-left: 4rem !important; }
+    .div-nosotros #parrafo-nos {
+      padding-top: 0 !important; }
+  /*Productos*/
+  .produc-container {
+    display: block !important; }
+    .produc-container .produc-item {
+      margin-bottom: 3rem !important;
+      margin-top: 1rem !important; }
+    .produc-container .parrafo-produc {
+      width: 250px !important;
+      height: 250px !important;
+      margin-top: -4rem !important;
+      padding-bottom: 2rem !important;
+      text-align: start !important; }
+    .produc-container .img-produc {
+      width: 250px !important;
+      height: 250px !important;
+      justify-content: center; }
+  /*galeria*/
+  .imgCarrusel {
+    width: 20rem !important;
+    height: 15rem !important; }
+  .btnCarrusel {
+    margin-left: -2rem !important;
+    margin-right: -2rem !important; } }
+
 header a, footer .box {
   border-radius: black 4px;
   transition: all 1s; }
@@ -172,9 +218,8 @@ main .btnCarrusel {
   height: 100%; }
 
 .contact-box {
-  max-width: 850px;
+  max-width: 360px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -234,17 +279,6 @@ main .btnCarrusel {
 
 .btn:hover {
   background-color: #27ae60; }
-
-@media screen and (max-width: 768px) {
-  /*index*/
-  .main-container {
-    display: block; }
-  .video-index {
-    padding: 2rem; }
-  /*galeria*/
-  .imgCarrusel {
-    width: 20rem;
-    height: 20rem; } }
 
 header a, footer .box {
   border-radius: black 4px;
